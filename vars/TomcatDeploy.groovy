@@ -1,8 +1,8 @@
-def call(name)
+/*def call(name)
 {
 	echo "Name is: ${name}"
-}
-/*
+}*/
+
 def call(credId,username,IpAddrs)
 {
     sshagent([credId]) {
@@ -14,4 +14,4 @@ def call(credId,username,IpAddrs)
       }
 		}
 }
-*/
+
