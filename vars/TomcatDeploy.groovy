@@ -1,8 +1,8 @@
-/*def call(name)
+def call(name)
 {
 	echo "Name is: ${name}"
-}*/
-
+}
+/*
 def call(credId,username,IpAddrs)
 {
     sshagent(['Tomcat-dev']) {
@@ -16,3 +16,4 @@ def call(credId,username,IpAddrs)
 		}
 }
 
+*/
